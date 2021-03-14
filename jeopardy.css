@@ -1,0 +1,35 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+#aside {
+  top: 0;
+  left: 0;
+}
+
+th, td {
+  width: 120px;
+  height: 120px;
+  background-color: #115ff4;
+  color: white;
+  text-align: center;
+}
+
+table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: red;
+}
